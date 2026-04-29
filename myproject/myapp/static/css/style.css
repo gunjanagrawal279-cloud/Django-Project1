@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5fff4;
+}
+
+/* Navbar */
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#2e7d32;
+color:white;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+/* Hero */
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+url('https://images.unsplash.com/photo-1542838132-92c53300491e');
+background-size:cover;
+color:white;
+}
+
+.hero h1{
+font-size:70px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:24px;
+margin-bottom:30px;
+}
+
+button{
+padding:15px 35px;
+font-size:20px;
+background:#ffeb3b;
+border:none;
+border-radius:30px;
+cursor:pointer;
+}
+
+/* Categories */
+.section-title{
+text-align:center;
+font-size:42px;
+margin:50px 0 30px;
+color:#2e7d32;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:20px 50px 60px;
+}
+
+.card{
+background:white;
+width:280px;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,.12);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+text-align:center;
+}
+
+.price{
+font-size:22px;
+font-weight:bold;
+color:#2e7d32;
+margin:10px 0;
+}
+
+.add-btn{
+background:#2e7d32;
+color:white;
+padding:10px 20px;
+border-radius:20px;
+display:inline-block;
+}
+
+/* Features */
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:50px;
+background:#e8f5e9;
+}
+
+.feature-box{
+background:white;
+padding:30px;
+width:300px;
+border-radius:20px;
+text-align:center;
+}
+
+/* Footer */
+footer{
+background:#1b5e20;
+color:white;
+padding:30px;
+text-align:center;
+margin-top:30px;
+}

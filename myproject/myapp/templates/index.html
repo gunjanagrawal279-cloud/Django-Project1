@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FreshMart Grocery</title>
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<nav>
+<div class="logo">FreshMart</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Shop</a></li>
+<li><a href="#">Offers</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<h1>Fresh Grocery Delivered</h1>
+<p>Vegetables, Fruits, Dairy and Daily Needs</p>
+<button onclick="alert('Shopping Started!')">
+Shop Now
+</button>
+</section>
+
+<h2 class="section-title">Popular Products</h2>
+
+<section class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce">
+<div class="card-content">
+<h2>Fresh Apples</h2>
+<div class="price">₹120/kg</div>
+<div class="add-btn">Add To Cart</div>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1540420773420-3366772f4999">
+<div class="card-content">
+<h2>Organic Vegetables</h2>
+<div class="price">₹80/kg</div>
+<div class="add-btn">Add To Cart</div>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550583724-b2692b85b150">
+<div class="card-content">
+<h2>Fresh Milk</h2>
+<div class="price">₹60/L</div>
+<div class="add-btn">Add To Cart</div>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf">
+<div class="card-content">
+<h2>Rice Pack</h2>
+<div class="price">₹450</div>
+<div class="add-btn">Add To Cart</div>
+</div>
+</div>
+
+</section>
+
+<h2 class="section-title">Why Choose Us</h2>
+
+<section class="features">
+
+<div class="feature-box">
+<h2>🚚 Free Delivery</h2>
+<p>Fast delivery at your doorstep.</p>
+</div>
+
+<div class="feature-box">
+<h2>🥬 Fresh Products</h2>
+<p>Direct from farms everyday.</p>
+</div>
+
+<div class="feature-box">
+<h2>💰 Best Prices</h2>
+<p>Affordable grocery rates.</p>
+</div>
+
+</section>
+
+<footer>
+<h2>FreshMart Grocery Store</h2>
+<p>Fresh Food | Fast Delivery | Great Prices</p>
+</footer>
+
+</body>
+</html>
